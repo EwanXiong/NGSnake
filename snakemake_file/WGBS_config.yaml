@@ -1,0 +1,14 @@
+# 1. workdir path
+workdir: "/path/to/your/project_folder"
+
+# 2. WGBS reference
+bismark_index: "/rhome/yxion051/bigdata/reference/human/hg38/bismark_index/Bisulfite_Genome"
+
+# 3. reference annotation
+gtf: "/path/to/references/hg38_annotations.gtf"
+
+# 4. sample list
+samples:
+  - "Sample_A"
+  - "Sample_B"
+  - "Sample_C"
